@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header,
+#profile,
+#footer,
+#desc {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#footer {
+    p {
+        color: #203040;
+    }
+    a {
+        color: purple;
+        font-weight: 500;
+    }
+}
